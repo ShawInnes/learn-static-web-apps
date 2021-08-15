@@ -1,5 +1,10 @@
 # hello-world
 
+## Deployment
+
+az group create --location westus2 --resource-group vueapp-rg
+az deployment group create --resource-group vueapp-rg --
+
 ## Build Setup
 
 ```bash
